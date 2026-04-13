@@ -23,7 +23,7 @@ After optimization and feature engineering, the model achieved:
 | **F1-Score** | **0.84** | Strong balance between detection and accuracy. |
 | **False Positives** | **109** | Out of 1.27M transactions, only 109 innocent users were flagged. |
 
-## 🛠️ Technology Stack
+## Technology Stack
 * **Language:** Python 3.14.2
 * **Core Libraries:** Pandas, NumPy, Scikit-Learn
 * **ML Algorithm:** Logitic Regression(first), XGBoost (Extreme Gradient Boosting)

@@ -6,7 +6,7 @@ A machine learning solution designed to detect fraudulent transaction with high 
 Financial fraud detection is a "needle in a haystack" problem. In this dataset, fraudulent transactions represent less than 0.1% of the total volume. This project implements a high-performance **XGBoost** model that achieves a **92% Precision** rate, successfully reducing false alarms (False Positives) by over 97% compared to baseline models.
 
 ## Dataset Link
-    [Link Text](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
+[Fraud Detection Dataset on Kaggle](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
 
 ## Key Innovations
 * **Feature Engineering (`is_emptied`):** Identified a critical "smoking gun" pattern where accounts are perfectly drained to $0.00. Adding this binary feature improved model clarity significantly.
